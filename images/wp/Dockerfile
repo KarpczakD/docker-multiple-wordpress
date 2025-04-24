@@ -1,4 +1,4 @@
-FROM php:8.4.6RC1-apache
+FROM php:8.4.6-cli-alpine3.21
 
 # install the PHP extensions we need
 RUN set -ex; \
